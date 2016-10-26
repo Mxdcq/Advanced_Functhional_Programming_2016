@@ -1,0 +1,2 @@
+pointsDistance (a,b) d = [ (x,y) | x <- [(a - floor (d))..(a + ceiling (d))], y <- [(b - floor (d))..(b + ceiling (d))], (x-a)**2 + (y-b)**2 <= d**2]
+--distance (a,b) d = [ (x,y) | x <- [(a - floor (d))..(a + ceiling (d))], y <- [(b - floor (d))..(b + ceiling (d))]]

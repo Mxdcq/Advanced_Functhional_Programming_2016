@@ -1,0 +1,5 @@
+EmptyTree. Tree ::= ;
+Node. Tree ::= Integer "+" Tree "+" Tree;
+
+
+
